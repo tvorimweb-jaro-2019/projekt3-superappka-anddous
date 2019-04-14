@@ -20,7 +20,8 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+		line-height: 1.5;
+		/* font-family: 'Roboto', sans-serif; */
 }
 
 .obal {
@@ -31,3 +32,125 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+ul, li {
+	padding: 0;
+	margin: 0;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 20px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: grey;
+	padding: 20px;
+}
+
+.menu a:hover, a:focus {
+	font-weight: bold;
+	color:	black;
+}
+
+.boxRuka {
+	position: relative;
+	background-image: url('images/pozadi.jpg');
+	background-image: cover;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.n1 {
+	font-size: 90px;
+	color: white;
+	padding: 20px 30px 20px 30px;
+	margin: 0px;
+}
+
+.podnadpis{
+	font-size: 40px;
+	font-weight: light;
+	color: white;
+	margin: 20px 30px 20px 30px;
+	width: 48%;
+}
+
+.telefon {
+	position: absolute;
+	/* bottom: 0px; */
+	bottom: 0px;
+	right: 0px;
+}
+
+.buttons li {
+	display: inline-block;
+	padding: 10px 40px 10px 40px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	color: white;
+	font-size: 20px;
+	border: 1px solid white;
+	border-radius: 8px;
+	box-shadow: 5px 7px 12px -5px rgba(206,206,206,0.91);
+	text-align: center;
+	}
+
+.button-zdarma {
+	background-color: #48418e;
+}
+
+.buttons a {
+	text-decoration: none;
+	color: white;
+	/* padding: 10px 40px 10px 40px; */
+}
+
+.buttons a:hover, a:focus {
+	color: #25133d;
+}
+
+
+
+.kontajner {
+	display: flex;  
+	/* flex-direction: column; 	 	 */
+}
+.box-prvni,
+.box-druhy,
+.box-treti {
+	flex: 1 1 calc(100% / 3);
+	padding: 25px;
+	margin: 0;
+	text-align: center;
+	/* font-size: 10px; */
+	color:  #48418e;
+	}
+
+
+.logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 25%;
+	}	
+
+
+.box-n1 {
+	font-style: bold;
+	font-size: 18px;
+}
+
+.footer p{
+	text-align: center;
+	font-size: 14px;
+	background-color:  #48418e;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+}
